@@ -40,7 +40,7 @@ export default function Main(){
             <div className={twMerge("col-span-1 text-2xl  overflow-hidden",abril.className)}>
                 <div className="text-white animate-slideUpSlow bg-[#1d3b53] border-4 border-[#1d3b53] rounded p-1">
                     <Link href='/collaboration'>
-                    Let's collaborate
+                    Let&apos;s collaborate
                     </Link>
                 </div>
                 
