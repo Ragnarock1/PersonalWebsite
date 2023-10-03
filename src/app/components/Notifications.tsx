@@ -1,6 +1,6 @@
 import  { FaLinkedin , FaAt ,  } from "react-icons/fa"
-import { NotifInfo } from './Notification.tsx'
-import Notification from './Notification.tsx'
+import { NotifInfo } from './Notification'
+import Notification from './Notification'
 const list = [
     {
         icon: FaLinkedin,
