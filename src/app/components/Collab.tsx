@@ -6,6 +6,7 @@ import { twMerge } from 'tailwind-merge'
 import Title  from './Title'
 import Notifications from "./Notifications"
 
+
 const arimo = Arimo({
     display: 'swap',
     weight: '700',
@@ -28,7 +29,7 @@ export default function Collab(){
             <div className="col-span-1 overflow-hidden">
                 <Title  page='collab'/>
             </div>
-            <div className={twMerge("col-span-1 text-2xl  overflow-hidden",abril.className)}>
+            <div className={twMerge("col-span-1 text-xl ",abril.className)}>
 
                 <Notifications/>    
                 
