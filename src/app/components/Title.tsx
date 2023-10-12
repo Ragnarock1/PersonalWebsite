@@ -29,9 +29,9 @@ export default function Title({page}: {
         }
     else {
         return (
-            <>
-                <h1 className="text-white text-7xl animate-slideDownFast">Let&apos;s collaborate</h1>
-                <h1 className={twMerge('text-gray-400 text-3xl mt-6 tracking-wider animate-slideDownSlow',abril.className)}>I&apos;m open to work</h1>
+            <>  
+                <h1 className="md:text-left text-center text-white text-7xl animate-slideDownFast">Let&apos;s collaborate</h1>
+                <h1 className={twMerge('md:text-left text-center text-gray-400 text-3xl mt-6 tracking-wider animate-slideDownSlow',abril.className)}>I&apos;m open to work</h1>
             </>
         ) 
         }

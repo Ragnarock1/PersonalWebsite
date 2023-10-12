@@ -29,7 +29,7 @@ export default function Collab(){
             <div className="col-span-1 overflow-hidden">
                 <Title  page='collab'/>
             </div>
-            <div className={twMerge("col-span-1 text-xl ",abril.className)}>
+            <div className={twMerge("col-span-1 text-xl grid",abril.className)}>
 
                 <Notifications/>    
                 

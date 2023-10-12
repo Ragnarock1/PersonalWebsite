@@ -8,8 +8,8 @@ export default function Projects(){
     return (
 
         <>
-            <div className="grid grid-cols-3 justify-items-center m-4">
-                <Link href="https://ghiduloaspetilor.com" target='_blank' className='col-span-1'>
+            <div className="grid grid-cols-3 gap-10 justify-items-center m-4">
+                <Link href="https://ghiduloaspetilor.com" target='_blank' className='col-span-3 md:col-span-1'>
                     <Image
                         src={ghidulSS}
                         width={500}
@@ -17,7 +17,7 @@ export default function Projects(){
                         alt="Picture of the author"
                     />
                 </Link>
-                <Link href="https://ghiduloaspetilor.com" target='_blank' className='col-span-1'>
+                <Link href="https://ghiduloaspetilor.com" target='_blank' className='col-span-3 md:col-span-1'>
                     <Image
                         src={warriorsSS}
                         width={500}
@@ -25,7 +25,7 @@ export default function Projects(){
                         alt="SOON"
                     />
                 </Link>
-                <div className='col-span-1 flex'>
+                <div className='col-span-3 md:col-span-1 flex'>
                     <h1 className='text-center text-4xl self-center justify-center'>SOON</h1>
                 </div>
             </div>
