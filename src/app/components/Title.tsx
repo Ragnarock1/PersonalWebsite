@@ -1,18 +1,5 @@
-import { Arimo , Abril_Fatface } from "next/font/google"
-import { useState , useRef , useEffect} from 'react'
+import { abril } from '../fonts/fonts'
 import { twMerge } from 'tailwind-merge'
-
-const arimo = Arimo({
-    display: 'swap',
-    weight: '700',
-    subsets: ['latin']
-});
-
-const abril = Abril_Fatface({
-    display: 'swap',
-    subsets: ['latin'],
-    weight:'400'
-});
 
 export default function Title({page}: {
     page: string

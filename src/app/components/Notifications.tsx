@@ -1,6 +1,6 @@
 import  { FaLinkedinIn , FaAt } from "react-icons/fa"
-import Link from "next/link"
 import { IconContext } from "react-icons"   
+import Link from "next/link"
 
 export default function Notifications(){
 

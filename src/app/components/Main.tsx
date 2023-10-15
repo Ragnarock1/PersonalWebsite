@@ -1,33 +1,11 @@
-"use client"
-import { Arimo , Abril_Fatface } from "next/font/google"
-import Link from 'next/link'
-import { useState , useContext } from 'react'
 import { twMerge } from 'tailwind-merge'
+import { arimo , abril } from '../fonts/fonts'
 import Title  from './Title'
- 
-const arimo = Arimo({
-    display: 'swap',
-    weight: '700',
-    subsets: ['latin']
-});
-
-const abril = Abril_Fatface({
-    display: 'swap',
-    subsets: ['latin'],
-    weight:'400'
-});
+import Link from 'next/link'
 
 export default function Main(){
 
-    const [page, setPage] = useState('home');
-
-    function handleSwitchScene(e:any){
-        
-        if(page === 'home'){ 
-            return setPage('collab');
-        }   
-        return setPage('home');
-    }
+    const page = 'home';
 
     return (
         <>
@@ -37,7 +15,7 @@ export default function Main(){
                 <Title key={page} page={page}/>
 
             </div>
-            <div className={twMerge("col-span-1 text-2xl overflow-hidden grid ",abril.className)}>
+            <div className={twMerge("col-span-1 text-xl md:text-2xl overflow-hidden grid ",abril.className)}>
                 <div className="w-1/2 md:w-full justify-self-center text-white animate-slideUpSlow bg-[#1d3b53] border-4 border-[#1d3b53] rounded p-1">
                     <Link href='/collaboration' className="text-center">
                     Let&apos;s collaborate

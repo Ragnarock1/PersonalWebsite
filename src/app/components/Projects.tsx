@@ -8,7 +8,7 @@ export default function Projects(){
     return (
 
         <>
-            <div className="grid grid-cols-3 gap-10 justify-items-center m-4">
+            <div className="grid grid-cols-3 gap-10 justify-items-center m-4" id='projects'>
                 <Link href="https://ghiduloaspetilor.com" target='_blank' className='col-span-3 md:col-span-1'>
                     <Image
                         src={ghidulSS}
